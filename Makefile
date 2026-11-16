@@ -3,7 +3,7 @@ CC ?= gcc
 all: mygitpackage
 
 mygitpackage: mygitpackage.c
-    $(CC) $(CFLAGS) $(LDFLAGS) -o mygitpackage mygitpackage.c
+	$(CC) $(CFLAGS) $(LDFLAGS) -o mygitpackage mygitpackage.c
 
 clean:
-    rm -f mygitpackage
+	rm -f mygitpackage
